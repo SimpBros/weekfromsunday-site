@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head>
+<meta name="robots" content="noindex, nofollow, noarchive"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Free sample & intake | Week From Sunday</title><meta name="description" content="Request a free sample week from one of your public sermons.">
+<!-- removed automatically when WFS_LAUNCH=1 -->
+<link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="assets/style.css">
+<meta property="og:title" content="Free sample & intake | Week From Sunday"><meta property="og:description" content="Request a free sample week from one of your public sermons."><meta name="theme-color" content="#1A3D36"></head>
+<body><div style="background:#5b2a00;color:#fff;font:600 14px/1.4 system-ui,sans-serif;padding:10px 16px;text-align:center">PREVIEW COPY: this site is not open for business yet. Nothing here is a live offer, and the contact options are not monitored yet.</div>
+<header class="site"><div class="wrap"><a href="index.html" aria-label="Week From Sunday home"><img src="assets/logo-horizontal-notag.svg" alt="Week From Sunday"></a>
+<nav><a href="index.html">Home</a><a href="pricing.html">Pricing</a><a href="sample.html">Sample week</a><a href="terms.html">Terms</a><a class="btn" href="contact.html">Start free sample</a></nav></div></header>
+<main>
+<section class="hero" style="padding-bottom:20px"><div class="wrap narrow"><span class="eyebrow">Free sample &amp; intake</span><h1>Tell us about your church.</h1>
+<p class="lede">Five minutes. We'll use this to make your free sample and set up your first week. We don't contact anyone you haven't told us about, and we never post anything for you.</p>
+<div class="callout"><strong>Pre-launch.</strong> This form works, but the site is not live yet.</div>
+<form class="intake" id="intake" action="#" method="post">
+<fieldset><legend>Your church</legend>
+<div class="row"><div><label for="church">Church name</label><input id="church" name="church" placeholder="Grace Valley Church"></div><div><label for="den">Denomination or tradition (optional)</label><input id="den" name="denomination"></div></div>
+<div class="row"><div><label for="city">City &amp; state</label><input id="city" name="city"></div><div><label for="size">Typical Sunday attendance</label><select id="size" name="size"><option>Under 50</option><option>50 to 100</option><option>100 to 250</option><option>250 to 500</option></select></div></div></fieldset>
+<fieldset><legend>You</legend>
+<div class="row"><div><label for="name">Your name &amp; role</label><input id="name" name="name" placeholder="Pastor Sam Rivera"></div><div><label for="email">Email</label><input id="email" name="email" type="email"></div></div>
+<div class="row"><div><label for="phone">Phone (optional)</label><input id="phone" name="phone" type="tel"></div><div><label for="plan">Plan you're curious about</label><select id="plan" name="plan"><option>Not sure yet</option><option>Essentials ($299)</option><option>Complete ($499)</option><option>Bilingual ($899)</option></select></div></div></fieldset>
+<fieldset><legend>Your sermons</legend>
+<div><label for="yt">Where do you post sermons? (link)</label><input id="yt" name="sermon_link" placeholder="https://www.youtube.com/@yourchurch"></div>
+<div class="row"><div><label for="trans">Preferred Bible translation</label><select id="trans" name="translation"><option>BSB (public domain)</option><option>WEB (public domain)</option><option>Reina-Valera 1909 (Spanish)</option><option>Another, which we license</option></select></div><div><label for="lang">Languages</label><select id="lang" name="language"><option>English</option><option>English and Spanish</option><option>Spanish</option></select></div></div>
+<div><label for="notes">Anything we should know? (doctrinal sensitivities, words to avoid, guest speakers)</label><textarea id="notes" name="notes" rows="4"></textarea></div></fieldset>
+<label style="font-weight:400"><input type="checkbox" name="consent" style="width:auto"> I'm authorized to speak for this church, and I'd like a free sample made from one of our public sermons.</label>
+<button class="btn" type="submit">Request my free sample</button>
+</form></div></section><script>
+document.getElementById("intake").addEventListener("submit",function(e){e.preventDefault();var f=new FormData(this),b="";
+f.forEach(function(v,k){b+=k+": "+v+"\n";});
+location.href="mailto:hello@weekfromsunday.com?subject="+encodeURIComponent("Free sample request: "+(f.get("church")||""))+"&body="+encodeURIComponent(b);});
+</script></main>
+<footer class="site"><div class="wrap"><div class="cols">
+<div><img src="assets/logo-horizontal-on-pine.svg" alt="Week From Sunday"><p>Done-for-you sermon content for small and bilingual churches. Reviewed by a person. Approved by your pastor.</p></div>
+<div><strong style="color:#D8EFE9">Explore</strong><p><a href="pricing.html">Pricing</a><br><a href="sample.html">Sample week</a><br><a href="contact.html">Free sample &amp; intake</a><br><a href="terms.html">Terms &amp; privacy</a></p></div>
+<div><strong style="color:#D8EFE9">Contact</strong><p><a href="mailto:hello@weekfromsunday.com">hello@weekfromsunday.com</a><br>[Mailing address placeholder]</p></div></div>
+<div class="fine">© 2026 Week From Sunday, [legal entity placeholder]. Scripture in our materials is from public-domain translations (BSB, WEB, Reina-Valera 1909) unless your church provides its own licensed text. Week From Sunday is not affiliated with any denomination.</div></div></footer>
+</body></html>
